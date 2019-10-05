@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocialMedia" >
+
+
+    <TextView
+            android:id="@+id/socialMediaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Social Media Portals"
+            android:textColor="#000000"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"/>
+      <TextView
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text="Facebook"
+            android:layout_below="@+id/socialMediaText"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+<RelativeLayout
+    android:id="@+id/First"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+
+        <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Negros Island Organic Farmers Festival"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+         <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestivalLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_marginLeft="20dp"
+            android:text="https://www.facebook.com/organicfarmersfestival"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+ 	<RelativeLayout
+	     android:id="@+id/containerCupcakeMade"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+		 android:layout_below="@+id/facebook"
+	     android:background="#e6cfd7" >
+	
+	     <ImageView
+	         android:id="@+id/cupcakelistview"
+	         android:layout_width="80dp"
+	         android:layout_height="80dp"
+	         android:src="@drawable/organicfarmersfestival"
+	         android:visibility="visible" />
+	
+	 </RelativeLayout>
+</RelativeLayout>
+<RelativeLayout
+	    android:id="@+id/second"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/First">
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+
+        <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Organic na Negros! (ONOPRA)"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+         <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestivalLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_marginLeft="20dp"
+            android:text="https://www.facebook.com/organicnanegros"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+	 <RelativeLayout
+	     android:id="@+id/containerCupcakeMade"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+	  android:layout_below="@+id/facebook"
+	     android:background="#e6cfd7" >
+	
+	     <ImageView
+	         android:id="@+id/cupcakelistview"
+	         android:layout_width="80dp"
+	         android:layout_height="80dp"
+	         android:src="@drawable/organicnanegros"
+	         android:visibility="visible" />
+	
+	 </RelativeLayout>
+</RelativeLayout>
+<RelativeLayout
+	    android:id="@+id/third"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/second">
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+
+        <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="9th Negros Island Organic Farmers Festival Event Page"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+         <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestivalLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_marginLeft="20dp"
+            android:text="https://www.facebook.com/events/695679293851156/"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+	 <RelativeLayout
+	     android:id="@+id/containerCupcakeMade"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+	  android:layout_below="@+id/facebook"
+	     android:background="#e6cfd7" >
+	
+	     <ImageView
+	         android:id="@+id/cupcakelistview"
+	         android:layout_width="80dp"
+	         android:layout_height="80dp"
+	         android:src="@drawable/organicnegrosislandmap"
+	         android:visibility="visible" />
+	
+	 </RelativeLayout>
+</RelativeLayout>
+<TextView
+            android:id="@+id/twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text="Twitter"
+            android:layout_below="@+id/third"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+     
+<RelativeLayout
+	    android:id="@+id/fourth"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/twitter">
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+
+        <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Organic Negros Festival"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+         <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestivalLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_marginLeft="20dp"
+            android:text="Follow: @OrganicNegros"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+	 <RelativeLayout
+	     android:id="@+id/containerCupcakeMade"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+	  android:layout_below="@+id/facebook"
+	     android:background="#e6cfd7" >
+	
+	     <ImageView
+	         android:id="@+id/cupcakelistview"
+	         android:layout_width="80dp"
+	         android:layout_height="80dp"
+	         android:src="@drawable/twitter"
+	         android:visibility="visible" />
+	
+	 </RelativeLayout>
+</RelativeLayout>
+<TextView
+            android:id="@+id/googleplus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:text="Google+"
+            android:layout_below="@+id/fourth"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+     
+<RelativeLayout
+	    android:id="@+id/fifth"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/googleplus">
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:layout_below="@+id/facebook">
+
+        <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Negros Island Organic Farmers Festival"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+         <TextView
+            android:id="@+id/NegrosIslandOrganicFarmersFestivalLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/NegrosIslandOrganicFarmersFestival"
+            android:layout_marginLeft="20dp"
+            android:text="https://plus.google.com/u/0/b/115181550702850959106/115181550702850959106/"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+	 <RelativeLayout
+	     android:id="@+id/containerCupcakeMade"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+	  android:layout_below="@+id/facebook"
+	     android:background="#e6cfd7" >
+	
+	     <ImageView
+	         android:id="@+id/cupcakelistview"
+	         android:layout_width="80dp"
+	         android:layout_height="80dp"
+	         android:src="@drawable/googleplus"
+	         android:visibility="visible" />
+	
+	 </RelativeLayout>
+</RelativeLayout>
+
+ <ImageView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/splashfooter320x480" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_items">
+        <item >Main</item>
+        <item >About the Festival</item>
+        <item >Events, Seminars and  Activities</item>
+        <item >Symposia</item>
+        <item >Event Map</item>
+	    <item >Organic Farm Tour</item>
+        <item >Committees</item>
+        <item >Photo Gallery</item>
+        <item >Social Media</item>
+        <item >Contact Secretariat</item>
+  
+    </string-array>
+</resources>

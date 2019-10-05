@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8d8d8"
+    tools:context=".MenuList" >
+
+    <RelativeLayout
+        android:id="@+id/containerCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/containerCupcakeMade"
+        android:background="#dc2f67" >
+
+        <TextView
+            android:id="@+id/menustuff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/listcustfname"
+            android:layout_below="@+id/listcustfname"
+            android:text="Designer&apos;s Name:  "
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+      
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerCupcakeMade"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#e6cfd7" >
+
+        <ImageView
+            android:id="@+id/cupcakelistview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:contentDescription="Wrapper Template"
+            android:src="@drawable/android"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

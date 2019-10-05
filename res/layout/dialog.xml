@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AboutActivity" >
+    
+    
+    <ScrollView
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/header"
+    android:scrollbars="vertical"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:fillViewport="true">
+    
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+   <TextView
+        android:id="@+id/onopra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Symposia"
+        android:textColor="#000000"
+    />
+        
+    <TextView
+        android:id="@+id/textScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#c6b986"
+        android:text="ieuh"
+    />
+     
+       </LinearLayout>
+	</ScrollView>
+
+ 
+
+</RelativeLayout>
