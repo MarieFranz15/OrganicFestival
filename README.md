@@ -1,7 +1,5 @@
-SlidingMenu
-===========
+Negros Occidental Organic Festival Application Source Code. 
 
-Tutorial on how to create sliding menu on Android
-For more information, visit
-http://www.fantageek.com/549/make-your-own-sliding-menu-on-android-tutorial-part-1/
-http://www.fantageek.com/562/make-your-own-sliding-menu-on-android-tutorial-part-2/
+App can be downloaded here https://apk.support/app/com.pintech.panaad
+
+This is a project that my team and I did for our internship project at the Electronic Data Processing Division for the festival. 
